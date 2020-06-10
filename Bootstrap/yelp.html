@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Yelp Interface - Andrew Chu</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Fonts 
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">-->
+
+
+
+</head>
+
+<!-- HEADER -->
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+            <a class="navbar-brand logo product-sans" href="http://www.andrewchu.ca" style="font-size: 24px; color: #FFFFFF"> Andrew Chu
+            </a>
+
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#navBarCollapse">
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+                </div>
+
+            <div class="collapse navbar-collapse product-sans" style="font-size:18px; color: #808080" id="navBarCollapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://www.andrewchu.ca">HOME</a></li>
+                    <li><a href="https://www.behance.net/andrewchu_ee2a">BEHANCE</a></li>
+                    <li><a href="mailto:andrewchu_1@hotmail.com">CONTACT</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- CONTENT -->
+
+
+
+    <div class="container-yelp">
+        <div class="upper-level">
+        </div>
+        <div class="text-center"><img class="no-resize" src="images/yelp_icon.png" style="width: 22%; height: 22%"></div>
+        <br>
+        <div class="text-center product-sans text-center" style="font-size: 50px; color: #FFF"><b>Redesigning Yelp's Interface</b>
+        </div>
+
+        <div class="container">
+            <br>
+            <div class="row open-sans text-center" style="color: #FFF">
+                _________________________________________________________________________________________________________________________________________________________
+            </div>
+            <div class="row open-sans" style="color: #FFF">
+
+                <div class="col-md-8">
+                    <h3><b>About the project</b></h3>
+                    <div style="font-size: 18px">
+                        Yelp's review section was redesigned in order to improve upon the user experience of searching and/or browsing of reviews by new and existing users (e.g. refining complex searches or exploring restaurant choices when users are in need of suggestions).</div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <h3><b>My role</b></h3>
+                    <div style="font-size: 18px">
+                        I contributed in leading a 4-person team in the design process, addressed any concerns and uncertainty that were brought up and did my best to keep everyone heading towards the same direction.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="upper-level"></div>
+    </div>
+
+    <div class="upper-level"></div>
+    <div class="container text-center">
+        <img src="images/yelp-1.png" style="width: 75%; height: 75%">
+        <br>
+        <hr>
+        <img src="images/yelp-2.png" style="width: 75%; height: 75%">
+        <br>
+        <hr>
+        <img src="images/yelp-3.png" style="width: 75%; height: 75%">
+
+    </div>
+
+    <div class="upper-level"></div>
+
+
+    <div class="container divider">
+
+        <span class="divider-font open-sans">
+      REQUIREMENTS
+  </span>
+    </div>
+    <div class="upper-level"></div>
+    <div class="container open-sans text-center" style="font-size:18px; color: #808080">
+        We wanted the following requirements to be implemented into our interface as we felt they were useful features in terms of helping users browse the review section:
+        <br>
+    </div>
+    <br>
+    <div class="container open-sans" style="font-size: 18px; color: #808080">
+        <div class="col-md-12">
+
+            <b>1.</b> Allows for more specific searches of the reviews
+            <br>
+            <b>2.</b> Provides a quick summary of each review
+            <br>
+            <b>3.</b> Does not require too many actions required by the user
+
+            <br>
+            <b>4.</b> Provides visible and clear instructions and options for the users
+        </div>
+    </div>
+    <div class="upper-level"></div>
+
+    <div class="container divider">
+
+        <span class="divider-font open-sans">
+      PLANNING
+  </span>
+    </div>
+    <div class="upper-level"></div>
+    <div class="container open-sans text-center" style="font-size:18px; color: #808080">
+        Here are some of the planning out we did before making an initial prototype. We focused on who the users were and what features we wanted to incorporate into the design. Two conceptual models were drawn to represent the interaction between user and interface.
+        <br>
+    </div>
+    <br>
+    <div class="upper-level"></div>
+    <div class="container text-center">
+
+        <img src="images/roughwork.png" style="width: 75%; height: 75%">
+        <br>
+        <hr>
+        <img src="images/conceptuals.png" style="width: 75%; height: 75%">
+        <br>
+
+    </div>
+
+    <div class="upper-level"></div>
+
+    <div class="container divider">
+
+        <span class="divider-font open-sans">
+      EVALUATION GOALS
+  </span>
+    </div>
+    <div class="upper-level"></div>
+    <br>
+    <div class="container open-sans" style="font-size: 18px; color: #808080">
+        <div class="col-md-12">
+
+            <b>1.</b> Does the new layout for individual reviews reduce the amount of scrolling and help with browsing efficiency? If yes, how? If no, why not?
+
+            <br>
+            <b>2.</b> Do the various added sorting and filtering features help with browsing efficiency? If yes, how? If no, why not?
+            <br>
+            <b>3.</b> What steps do users take when searching reviews that mention two characteristics of the business? Will they be able to leverage the newly added features? Will they be able to see it?
+            <br>
+
+        </div>
+    </div>
+    <div class="upper-level"></div>
+    <div class="container divider">
+        <span class="divider-font open-sans">
+      LOW FIDELITY PROTOTYPE
+  </span>
+    </div>
+    <div class="upper-level"></div>
+    <div class="container">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7dQUDHEpaq4"></iframe>
+        </div>
+    </div>
+    <div class="upper-level"></div>
+    
+        <div class="container divider">
+
+        <span class="divider-font open-sans">
+      EVALUATION
+  </span>
+    </div>
+    <div class="upper-level"></div>
+    <div class="container open-sans text-center" style="font-size:18px; color: #808080">
+        We had a total of 8 participants. Since it was difficult to recruit users that could represent our task examples, we recruited students 17 or above who might be looking for a place to eat based on the reviews of a restaurant. Evaluations were conducted in small study rooms as it was a convenient and quiet location where interruptions would be minimal. Each evaluation took approximately 20 minutes to complete. This was a sufficient amount of time as it allowed for 4 sub-tasks involving observations and a questionnaires followed by an interview to be done.
+        <br>
+    </div>
+    <div class="upper-level"></div>
+    
+      <div class="container divider">
+        <span class="divider-font open-sans">
+      MEDIUM FIDELITY PROTOTYPE
+  </span>
+    </div>
+    <div class="upper-level"></div>
+    
+    <div class="container">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q3CjS-xhgI8"></iframe>
+        </div>
+    </div>
+    <div class="upper-level"></div>
+    
+          <div class="container divider">
+
+        <span class="divider-font open-sans">
+      RESULTS
+  </span>
+    </div>
+    <div class="upper-level"></div>
+    <div class="container open-sans text-center" style="font-size:18px; color: #808080">
+       The one-line summaries were helpful in terms of skimming the reviews quickly. Similarly, most users found that being able to filter the reviews by their rating was easy to use. This may be because of the visibility it offered on the interface and how straightforward it was to use it. However, there were also weaknesses with the design. From participant's feedback, we found that the multi-word searching feature was not visible enough and the placeholder was too subtle to give users hints of its utility. Although users who did discover this feature, thought it was very helpful. Another problem with visibility were the buttons for displaying hidden pictures and extendable text bodies. We found that these two features did not stand out enough, thus making it difficult to find and utilize by the users.
+        <br>
+    </div>
+
+
+    <hr>
+    <div class="divider-font open-sans text-center">
+        Thanks for reading!
+    </div>
+    <br>
+    <div class="container open-sans text-center" style="font-size:18px; color: #808080">
+        Feel free to check out more of my work below!
+    </div>
+    <div class="upper-level"></div>
+
+   <!--  CAROUSEL -->
+    
+    <div class="container-fluid">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+
+            </ol>
+
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="http://www.andrewchu.ca/collaberativevideo"><img src="images/blue_icon.png"></a>  
+                    <div class="carousel-caption open-sans" style="color: #FFF">
+
+                        <div class="semi-level">
+                            <div class="text-center product-sans" style="font-size: 30px"><b>Collaborative Video</b>
+                            </div>
+                            <div class="open-sans" style="color:#FFF; font-size: 18px">A video platform focused on how users interact with educational videos.</div>
+                            <div style="font-size:30px; color: #808080">
+                                <div style="padding-bottom: 20px"></div>
+                                <a href="http://www.andrewchu.ca/collaberativevideo" type="button" class="btn btn-lg btn-primary open-sans">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="http://www.andrewchu.ca/yelp"><img src="images/red_icon.png"></a>  
+                    <div class="carousel-caption open-sans" style="color: #FFF">
+
+                        <div class="semi-level">
+                            <div class="text-center product-sans" style="font-size: 30px"><b>Redesigning Yelp's Interface</b>
+                            </div>
+                            <div class="open-sans" style="color:#FFF; font-size: 18px">
+                                An improvement upon the UX of Yelp's review interface.</div>
+                            <div style="font-size:30px; color: #808080">
+                                <div style="padding-bottom: 20px"></div>
+                                <a href="http://www.andrewchu.ca/yelp" type="button" class="btn btn-lg btn-primary open-sans">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="http://www.andrewchu.ca/productlauncher"><img src="images/green_icon.png"></a> 
+                    <div class="carousel-caption open-sans" style="color: #FFF">
+
+                        <div class="semi-level">
+                            <div class="text-center product-sans" style="font-size: 30px"><b>Product Launcher</b>
+                            </div>
+                            <div class="open-sans" style="color:#FFF; font-size: 18px">
+                                The design of a software that launches multiple products.</div>
+
+                            <div style="font-size:30px; color: #808080">
+                                <div style="padding-bottom: 20px"></div>
+                                <a href="http://www.andrewchu.ca/productlauncher" type="button" class="btn btn-lg btn-primary open-sans">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                   <a href="http://www.andrewchu.ca/mobilegame"><img src="images/gray_icon.png"></a> 
+                    <div class="carousel-caption open-sans" style="color: #FFF">
+
+                        <div class="semi-level">
+                            <div class="text-center product-sans" style="font-size: 30px"><b>Mobile Platformer Game</b>
+                            </div>
+                            <div class="open-sans" style="color:#FFF; font-size: 18px">
+                                A personal project of a 2D mobile platformer game.</div>
+
+                            <div style="font-size:30px; color: #808080">
+                                <div style="padding-bottom: 20px"></div>
+                                <a href="http://www.andrewchu.ca/mobilegame" type="button" class="btn btn-lg btn-primary open-sans">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+
+
+    <div class="container text-center">
+ <div class="upper-level"></div>
+        <a class="line product-sans" href="mailto:andrewchu_1@hotmail.com" style="font-size: 45px; color: #7ED8B5">Contact me!</a>
+        <div class="upper-level">
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+       <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+<script>
+    $(".navbar-fixed-top").autoHidingNavbar({
+       
+        animationDuration: 450
+  
+});
+</script>
+</body>
+
+</html>
